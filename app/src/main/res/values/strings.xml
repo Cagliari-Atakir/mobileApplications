@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">mca_mobile_applications_project_01</string>
     <string name="enter_your_email">Enter your email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

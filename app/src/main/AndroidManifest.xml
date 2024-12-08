@@ -21,9 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".RegistryActivity"
+            android:exported="true" />
 
-        <activity android:name=".RegistryActivity"
-            android:exported="true"/>
+        <activity android:name=".Fragment_Activity"
+            android:exported="true">
+            <!-- Add this intent filter for the launcher activity -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
